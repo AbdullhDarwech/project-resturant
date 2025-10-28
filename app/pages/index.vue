@@ -309,12 +309,12 @@ export default {
       recipes: [], // سيتم ملء الوصفات من الـ API
        // بطاقات إضافية إذا كنت بحاجة إليها
       categories: [
-      { image: '/_nuxt/assets/image20.png', name: 'Carrots', color: '#708246' },
-      { image: '/_nuxt/assets/image21.png', name: 'Broccoli', color: '#CC261B' },
-      { image: '/_nuxt/assets/image22.png', name: 'Tomatoes', color: '#F09E00' },
-      { image: '/_nuxt/assets/image23.png', name: 'Spinach', color: '#000000' },
-      { image: '/_nuxt/assets/image24.png', name: 'Peppers', color: '#000000' },
-      { image: '/_nuxt/assets/image25.png', name: 'Cucumbers', color: '#708246' },
+      { image: '/images/image20.png', name: 'Carrots', color: '#708246' },
+      { image: '/images/image21.png', name: 'Broccoli', color: '#CC261B' },
+      { image: '/images/image22.png', name: 'Tomatoes', color: '#F09E00' },
+      { image: '/images/image23.png', name: 'Spinach', color: '#000000' },
+      { image: '/images//image24.png', name: 'Peppers', color: '#000000' },
+      { image: '/images/image25.png', name: 'Cucumbers', color: '#708246' },
     ],
     fallbackRecipes : [
       { id: 1 , photoUrl: './_nuxt/assets/image26.png', title: 'Big and Juicy Wagyu Beef Cheeseburger Wagyu', cookTime: '30 Minutes', mainIngredient: 'Chicken' },
@@ -330,25 +330,25 @@ export default {
     ],
     cards: [
     {
-          image: '/_nuxt/assets/Rectangle.png',
+          image: '/images/Rectangle.png',
           title: 'Spicy Chicken Wings',
           location: 'New York',
           date: 'January 10',
         },
         {
-          image: '/_nuxt/assets/Rectangle1.png',
+          image: '/images/Rectangle1.png',
           title: 'Fresh Salad',
           location: 'Los Angeles',
           date: 'February 5',
         },
         {
-          image: '/_nuxt/assets/Rectangle2.png',
+          image: '/images/Rectangle2.png',
           title: 'Delicious Pancakes',
           location: 'San Francisco',
           date: 'March 15',
         },
         {
-          image: '/_nuxt/assets/Rectangle3.png',
+          image: '/images/Rectangle3.png',
           title: 'Grilled Salmon',
           location: 'Chicago',
           date: 'April 20',
